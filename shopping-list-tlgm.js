@@ -18,7 +18,7 @@ var help_msg = ["/list muestra el listado de la compra actual",
 listen_messages()
 
 
-insertchatId = function(chatId) {
+function insertchatId(chatId) {
  if (chatIds.indexOf(chatId) == '-1') {
    chatIds.push(chatId)
    console.log("Chat id: ",chatId)
@@ -26,7 +26,7 @@ insertchatId = function(chatId) {
 }
 exports.insertchatId = insertchatId
 
-insertchatUser = function(user) {
+function insertchatUser(user) {
  if (users.indexOf(user) == '-1') {
    users.push(user)
    console.log("User add: ",user)

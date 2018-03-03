@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node shopping-list-tlgm.js",
+    "start": "node lib/main.js",
     "test": "jest"
   },
   "dependencies": {

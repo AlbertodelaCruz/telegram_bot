@@ -1,4 +1,4 @@
-var main = require('./shopping-list-tlgm.js')
+var main = require('../lib/main.js')
 var chatIds = main.chatIds
 var users = main.users
 

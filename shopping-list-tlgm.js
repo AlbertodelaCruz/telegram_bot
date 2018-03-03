@@ -40,6 +40,7 @@ function removechatId(chatId) {
    console.log("Chat id removed: ",chatId)
  }
 }
+exports.removechatId = removechatId
 
 function removechatUser(user) {
  if (users.indexOf(user) != '-1') {
@@ -47,6 +48,7 @@ function removechatUser(user) {
    console.log("User removed: ",user)
  }
 }
+exports.removechatUser = removechatUser
 
 function sendMessageToChats(chatIds, text) {
   for (i=0; i < chatIds.length; i++) {
